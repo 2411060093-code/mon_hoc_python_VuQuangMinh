@@ -18,3 +18,25 @@ for mon, diem in diem_mon.items():
 ten = "Python"
 for ky_tu in ten:
     print(ky_tu)
+
+n = 5
+for i in range(1, 11):
+    print(f"{n} x {i} = {n * i}")
+
+n = 5
+giai_thua = 1
+i = 1
+while i <= n:
+    giai_thua = giai_thua * i
+i += 1
+
+print(f"{n}! = {giai_thua}")
+
+so = 4527
+so_tam = so
+tong_chu_so = 0
+while so_tam > 0:
+    chu_so = so_tam % 10
+tong_chu_so += chu_so
+so_tam = so_tam // 10
+print(f"Tong cac chu so cua {so} la: {tong_chu_so}")
